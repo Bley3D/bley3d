@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Projects | BLEY 3D & Plastics Engineering</title>
+<style>
+:root{--bg:#07131f;--blue:#139fe8;--text:#f5f8fb;--muted:#a9b8c6}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--text)}
+nav{border-bottom:1px solid #183148;background:#07131f}
+nav .in{max-width:1180px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:21px;font-weight:800;color:white;text-decoration:none}.brand b{color:var(--blue)}
+nav a{color:#d9e5ee;text-decoration:none;margin-left:22px;font-size:14px}.menu-toggle{display:none;width:42px;height:38px;border:1px solid #355067;border-radius:8px;background:transparent;padding:8px;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:5px}.menu-toggle span{display:block;width:21px;height:2px;background:#d9e5ee;border-radius:2px}.links{display:flex;align-items:center}
+main{max-width:1180px;margin:auto;padding:70px 22px}
+.eyebrow{color:#55c3ff;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:13px}
+h1{font-size:48px;margin:10px 0 34px}
+.project{background:#0d1d2c;border:1px solid #20364a;border-radius:14px;padding:32px;max-width:1100px;margin:0 auto 32px}
+.project .num{color:#55c3ff;font-weight:800;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.project h2{font-size:28px;line-height:1.2;margin:8px 0 14px}
+.project p{color:#c7d6e1;font-size:17px;line-height:1.65;margin:0;max-width:850px}.project-img{display:block;width:100%;max-width:425px;height:auto;margin:24px auto 0;border-radius:10px;border:1px solid #20364a}
+@media(max-width:850px){nav .in{padding:12px 18px;justify-content:space-between;position:relative}.brand{font-size:18px;white-space:nowrap}.menu-toggle{display:flex}.links{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(7,19,31,.99);border-top:1px solid #183148;border-bottom:1px solid #183148;padding:8px 14px 12px;flex-direction:column;align-items:stretch;box-shadow:0 12px 24px rgba(0,0,0,.22)}.links.open{display:flex}.links a,nav a{margin:0;padding:11px 8px;font-size:15px}}@media(max-width:600px){.brand{font-size:16px}main{padding:48px 20px}h1{font-size:38px;margin-bottom:26px}.project{padding:22px}.project h2{font-size:24px}.project p{font-size:16px}}
+.lang-switch{display:flex;align-items:center;gap:7px;margin-left:18px;font-size:14px;color:#7f9aad}.lang-switch a{margin:0!important;padding:0!important;color:#d9e5ee;text-decoration:none}.lang-switch strong{color:#55c3ff}.lang-switch span{color:#557084}@media(max-width:850px){.lang-switch{margin:6px 8px 2px;padding:10px 0;border-top:1px solid #183148}.lang-switch a{padding:0!important}}</style>
+<link rel="alternate" hreflang="de" href="https://bley3d.de/projekte.html"><link rel="alternate" hreflang="en" href="https://bley3d.de/en/projects.html"><link rel="alternate" hreflang="x-default" href="https://bley3d.de/projekte.html"></head>
+<body>
+<nav><div class="in"><a class="brand" href="index.html">BLEY <b>3D</b> & KUNSTSTOFFTECHNIK</a><button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button><div class="links" id="mobile-nav"><a href="index.html#services">Services</a><a href="index.html#process">Process</a><a href="index.html#materials">Materials</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="index.html#contact">Contact</a><div class="lang-switch" aria-label="Language"><a href="../projekte.html" lang="de">DE</a><span>|</span><strong>EN</strong></div></div></div></nav>
+<main><div class="eyebrow">BLEY 3D & Plastics Engineering</div><h1>Projects</h1><article class="project"><div class="num">Project 01 · Replacement Part & 3D Printing</div><h2>Phone holder – ball joint redesigned and 3D-printed</h2><p>The ball joint of the existing phone holder was broken. The damaged component was redesigned in CAD using the original as a reference and then reproduced by 3D printing. After assembly, the existing phone holder could be used again.</p><img class="project-img" src="../assets/projekt-handyhalterung-cad.png" alt="CAD design of the phone holder ball joint"><img class="project-img" src="../assets/projekt-handyhalterung-detail.jpg" alt="Newly manufactured phone holder ball joint"><img class="project-img" src="../assets/projekt-handyhalterung-montiert.jpg" alt="Finished phone holder with installed ball joint"></article><article class="project"><div class="num">Project 02 · Camping & 3D Printing</div><h2>Rainwater drainage for a motorhome awning</h2><p>During heavy rain, water ran directly down the extended awning or awning leg and collected at the pitch. A suitable collection and drainage solution was therefore designed and manufactured by 3D printing. Rainwater is collected at the component and directed several metres away from the motorhome through an attached hose, significantly reducing water accumulation directly next to the vehicle.</p><img class="project-img" src="../assets/projekt-halbzeugklemme-cad.png" alt="CAD-Konstruktion der Rainwater drainage for a motorhome awning"><img class="project-img" src="../assets/projekt-halbzeugklemme-foto-02.jpg" alt="Detailed view of the rainwater drainage solution"><img class="project-img" src="../assets/projekt-halbzeugklemme-foto-03.jpg" alt="Installed rainwater drainage solution with hose"></article></main>
+<script data-goatcounter="https://bley3d.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><script>
+const menuButton=document.querySelector('.menu-toggle');
+const menuLinks=document.querySelector('.links');
+if(menuButton&&menuLinks){
+  menuButton.addEventListener('click',()=>{
+    const open=menuLinks.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded',open?'true':'false');
+  });
+  menuLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+    menuLinks.classList.remove('open');
+    menuButton.setAttribute('aria-expanded','false');
+  }));
+}
+</script>
+</body>
+</html>
